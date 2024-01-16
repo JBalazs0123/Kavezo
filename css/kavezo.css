@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(219, 180, 121);
+    font-family: Arial;
+    text-align: center;
+    font-size: x-large;
+}
+
+#nev, #extra, #forro, #italok{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+td{
+    padding-bottom: 2px;
+}
+tr:hover {
+    background-color: rgb(120,62,27);
+    color: #FFFFFF;
+}
+caption{
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: underline rgb(120,62,27);
+}
+fieldset {border: none}
+input, textarea, fieldset {margin-bottom: 8px}
+input[type="reset"], input[type="submit"] {
+    background-color: rgb(120,62,27);
+    color: #FFF;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+input, textarea { background-color: rgb(219, 180, 121); }
+::placeholder{
+    color: black;
+    opacity: 1; /*firefox*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(120,62,27);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(160,82,45);
+}
